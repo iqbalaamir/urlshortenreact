@@ -29,7 +29,7 @@ function Dashboard() {
       key: 'shortURL',
       render: (text) => (
         <Tooltip title="Click to Copy">
-          <Button type="link" onClick={() => copyToClipboard(`http://localhost:5000/url/url/${text}`)}>
+          <Button type="link" onClick={() => copyToClipboard(`https://urlshortapi.onrender.com/url/url/${text}`)}>
             <CopyOutlined /> {text}
           </Button>
         </Tooltip>
