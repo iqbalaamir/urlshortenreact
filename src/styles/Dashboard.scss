@@ -1,0 +1,25 @@
+.dashboard-layout {
+    min-height: 100vh;
+  }
+  
+  .dashboard-header {
+    background: #001529;
+    padding: 0 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2 {
+      color: #fff;
+    }
+  }
+  
+  .dashboard-content {
+    padding: 50px;
+    background: #fff;
+  }
+  
+  .url-form {
+    margin-bottom: 50px;
+  }
+  
